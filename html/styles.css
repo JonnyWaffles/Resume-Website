@@ -1,0 +1,183 @@
+html{
+	height: 100%;
+	overflow-y:scroll;
+}
+
+div,ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+body, #site{
+	height: 100%;
+	min-height: 100%;
+	background-color: #F1F3F2;
+}
+
+h1{
+	font-size: 48px;
+}
+
+a {
+	text-decoration:none;
+	background:transparent;
+}
+
+header {
+  background-color:#A0A0A0;
+	height:160px;
+	min-width:850px;
+	position:relative;
+	display:block;
+}
+
+nav {
+	background-color:#FFFFF4;
+	width:150px;
+	min-width:100px;
+	position:absolute;
+	top:160px;
+	bottom:100px;	
+}
+
+nav li a {
+	display: block;
+  color: #141412;
+  font-size: 20px;
+  line-height: 2;
+  padding: 15px 0px;
+  text-decoration: none;
+	text-align:center;
+}
+
+nav li a:hover {
+	color:orange;
+	background-color:black;
+}
+
+.dropdown {
+	height:70px;
+}
+
+.dropdown ul li a {
+	font-size:14px;
+}
+
+nav .dropdown:hover > ul {
+	visibility:visible;
+}
+
+nav li ul {
+	visibility:hidden;
+}
+
+
+footer {
+	height:100px;
+	background-color:black;
+}
+
+article h2 {
+	font-size:24px;
+	border-bottom-style:inset;
+	border-width:2px;
+	border-color:#A0A0A0;
+	display:inline-block;
+	padding-bottom:10px;
+} 
+
+#site {
+	max-width:1200px;
+	margin:0 auto;
+	border-right:1px solid #f2f2f2;
+}
+
+#page {
+	margin:0 auto -100px;
+	min-height:100%;
+	position:relative;
+}
+
+.inlineContainer {
+	display:inline-block;
+	margin-bottom:-4px;
+}
+
+.alignVerticalCenter {
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+#headername{
+  position:relative;
+}
+
+#headername h1 {
+	margin-top:0px;
+	padding: 20px 0px 15px 150px;
+}
+
+#headername a, a:visited, a:hover, a:active  {
+  color: inherit;
+}
+
+#socialmediawidget {
+  position:absolute;
+  right:0;
+  top:80px;
+}
+
+#socialmediawidget li{
+  display:inline;
+}
+
+#socialmediawidget img {
+	width:32px;
+}
+
+#quickabout{
+  display:inline-block;
+	overflow:hidden;
+	position:absolute;
+	right:0;
+}
+
+#quickabout div {
+  display:inline-block;
+}
+
+#quickabout img{
+  height:130px;
+  display:inline-block;
+	margin-bottom:-4px;
+}
+
+#quickabout li {
+	text-align:right;
+	width:auto;
+	padding-right:5px;
+	font: 100 italic 18px "Source Sans Pro", Helvetica, sans-serif;
+}
+
+#main {
+	display:block;
+	margin-left:200px;
+}
+
+#content { 
+	padding-top: 35px;
+	padding-bottom: 200px;
+}
+
+ul.resume {
+	margin-left:50px;	
+}
+
+ul.resume li {
+	list-style-type:square;
+	margin-top:5px;
+}
+
+
